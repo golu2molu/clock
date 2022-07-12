@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(86, 175, 175);
+}
+
+#container{
+    margin:auto;   
+    margin-top:5%;  
+    position:relative;
+    border:5px outset;
+    width: 30vw;
+    height: 30vw;
+    background-image: url("images/analog-clock.gif");
+    background-size: 100%;
+}
+#hour , #minute , #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    transform-origin: bottom;
+}
+#hour{
+    width:2%;
+    height:30%;
+    left:49%;
+    top:20.5%;   
+}
+#minute{   
+    width:2%;
+    height:42%;
+    left:49%;
+    top:8.5%;      
+}
+#second{
+    width:1%;
+    height:38%;
+    left:49.5%;
+    top:12.4%;
+    opacity:0.5;          
+    background-color: red;
+}
+button{
+    position:absolute;
+    top:110%;
+    width:100%;
+    padding:5px;
+    border:2px inset;
+}
+button:hover{
+    color:white;
+    cursor: pointer;
+    background-color:black;
+}
+#text{
+    position:absolute;
+    top:115%;
+    width:100%;
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+}
